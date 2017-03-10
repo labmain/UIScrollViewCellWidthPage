@@ -13,6 +13,10 @@
 		244A2B491E72B68C0051714A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244A2B471E72B68C0051714A /* Main.storyboard */; };
 		244A2B4B1E72B68C0051714A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244A2B4A1E72B68C0051714A /* Assets.xcassets */; };
 		244A2B4E1E72B68C0051714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244A2B4C1E72B68C0051714A /* LaunchScreen.storyboard */; };
+		244A2B5B1E72B69C0051714A /* EHPracticeWordCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A2B561E72B69C0051714A /* EHPracticeWordCardScrollView.m */; };
+		244A2B5C1E72B69C0051714A /* EHPracticeWordCardScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244A2B571E72B69C0051714A /* EHPracticeWordCardScrollView.xib */; };
+		244A2B5D1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A2B591E72B69C0051714A /* EHPracticeWordCardScrollViewCell.m */; };
+		244A2B5E1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244A2B5A1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		244A2B4A1E72B68C0051714A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244A2B4D1E72B68C0051714A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244A2B4F1E72B68C0051714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244A2B551E72B69C0051714A /* EHPracticeWordCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPracticeWordCardScrollView.h; sourceTree = "<group>"; };
+		244A2B561E72B69C0051714A /* EHPracticeWordCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPracticeWordCardScrollView.m; sourceTree = "<group>"; };
+		244A2B571E72B69C0051714A /* EHPracticeWordCardScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHPracticeWordCardScrollView.xib; sourceTree = "<group>"; };
+		244A2B581E72B69C0051714A /* EHPracticeWordCardScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPracticeWordCardScrollViewCell.h; sourceTree = "<group>"; };
+		244A2B591E72B69C0051714A /* EHPracticeWordCardScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPracticeWordCardScrollViewCell.m; sourceTree = "<group>"; };
+		244A2B5A1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHPracticeWordCardScrollViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,12 @@
 				244A2B441E72B68C0051714A /* ViewController.h */,
 				244A2B451E72B68C0051714A /* ViewController.m */,
 				244A2B471E72B68C0051714A /* Main.storyboard */,
+				244A2B551E72B69C0051714A /* EHPracticeWordCardScrollView.h */,
+				244A2B561E72B69C0051714A /* EHPracticeWordCardScrollView.m */,
+				244A2B571E72B69C0051714A /* EHPracticeWordCardScrollView.xib */,
+				244A2B581E72B69C0051714A /* EHPracticeWordCardScrollViewCell.h */,
+				244A2B591E72B69C0051714A /* EHPracticeWordCardScrollViewCell.m */,
+				244A2B5A1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.xib */,
 				244A2B4A1E72B68C0051714A /* Assets.xcassets */,
 				244A2B4C1E72B68C0051714A /* LaunchScreen.storyboard */,
 				244A2B4F1E72B68C0051714A /* Info.plist */,
@@ -140,6 +156,8 @@
 			files = (
 				244A2B4E1E72B68C0051714A /* LaunchScreen.storyboard in Resources */,
 				244A2B4B1E72B68C0051714A /* Assets.xcassets in Resources */,
+				244A2B5C1E72B69C0051714A /* EHPracticeWordCardScrollView.xib in Resources */,
+				244A2B5E1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.xib in Resources */,
 				244A2B491E72B68C0051714A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				244A2B461E72B68C0051714A /* ViewController.m in Sources */,
+				244A2B5D1E72B69C0051714A /* EHPracticeWordCardScrollViewCell.m in Sources */,
+				244A2B5B1E72B69C0051714A /* EHPracticeWordCardScrollView.m in Sources */,
 				244A2B431E72B68C0051714A /* AppDelegate.m in Sources */,
 				244A2B401E72B68C0051714A /* main.m in Sources */,
 			);
